@@ -1,0 +1,8 @@
+Ankara Istanbul Izmir Bursa Antalya Konya Adana Kocaeli Gaziantep Mersin
+Istanbul Ankara Konya Istanbul Ankara Izmir Bursa Antalya Adana Sivas
+Ankara Istanbul Konya Bursa Gaziantep Mersin Kocaeli Van Izmir Antalya
+Konya Istanbul Ankara Adana Sivas Van Bursa Izmir Ankara Istanbul
+Konya Ankara Adana Gaziantep Bursa Izmir Antalya Sivas Kocaeli Mersin
+Istanbul Ankara Konya Izmir Bursa Antalya Adana Gaziantep Van Sivas
+Ankara Istanbul Konya Bursa Izmir Adana Mersin Kocaeli Antalya Sivas
+Konya Istanbul Ankara Van Gaziantep Bursa Izmir Antalya Adana Ankara
