@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TXT Heap Project</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f7fb;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(135deg,#0d47a1,#1976d2);
+    color:white;
+    padding:60px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    margin-bottom:30px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    color:#0d47a1;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.feature-box{
+    background:#eef4ff;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.feature-box h3{
+    color:#1565c0;
+}
+
+.code{
+    background:#111;
+    color:#00ff88;
+    padding:20px;
+    border-radius:10px;
+    overflow:auto;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>TXT HEAP PROJECT</h1>
+    <p>TXT dosyasındaki kelimeleri Heap yapısı ile sıralayan program</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+    <h2>📌 Proje Hakkında</h2>
+    <p>
+        Bu proje Python kullanılarak geliştirilmiştir.
+        Sistem txt dosyası içerisindeki kelimeleri analiz eder,
+        frekanslarını hesaplar ve Dual-Key Min Heap yapısında sıralar.
+    </p>
+</div>
+
+<div class="card">
+    <h2>⚙ Kullanılan Teknolojiler</h2>
+
+    <div class="features">
+
+        <div class="feature-box">
+            <h3>Python</h3>
+            <p>Ana programlama dili</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Heap</h3>
+            <p>Veri sıralama yapısı</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Regex</h3>
+            <p>Kelime ayrıştırma sistemi</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Dictionary</h3>
+            <p>Frekans saklama yapısı</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h2>🧠 Programın Çalışma Mantığı</h2>
+
+    <ol>
+        <li>TXT dosyası okunur</li>
+        <li>Kelimeler ayrıştırılır</li>
+        <li>Frekanslar hesaplanır</li>
+        <li>Heap yapısına eklenir</li>
+        <li>Sonuçlar terminalde gösterilir</li>
+    </ol>
+</div>
+
+<div class="card">
+    <h2>💻 Örnek Çıktı</h2>
+
+<div class="code">
+[15] yazılım <br>
+[12] program <br>
+[10] veri <br>
+[8] heap <br>
+[7] sistem
+</div>
+
+</div>
+
+</div>
+
+<footer>
+    Rima Hatib & Ibrahim Elahmed © 2026
+</footer>
+
+</body>
+</html>
